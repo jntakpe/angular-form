@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "AngularJS",
+    "packageVersion": "0.1.0",
+    "revealTheme": "sky",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "jntakpe",
+    "githubRepository": "angular-form"
+  }
+}
