@@ -1,1 +1,5 @@
-["index.md"]
+[
+    "index.md",
+    ["tools/tools.md", "tools/grunt.md"],
+    "second-slide.md"
+]

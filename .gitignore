@@ -1,6 +1,23 @@
-node_modules
-bower_components
-dist
-*.log
-.sass-cache
-index.html
+######################
+# Directories
+######################
+target/
+generated-java/
+build/
+node/
+node_modules/
+**/bower_components/
+######################
+# IntelliJ IDEA and WebStorm
+######################
+.idea/
+*.iml
+######################
+# Windows
+######################
+Thumbs.db
+Desktop.ini
+######################
+# OS X
+######################
+.DS_Store
