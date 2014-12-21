@@ -1,4 +1,4 @@
-## Outils de la formation
+# Outils
 
 * Votre IDE préféré (le mien : IntelliJ/WebStorm)
 * nodejs package manager (npm)

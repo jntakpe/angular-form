@@ -1,5 +1,5 @@
 [
     ["presentation/presentation.md", "presentation/moi.md", "presentation/vous.md"],
-    ["tools/tools.md", "tools/ide.md", "tools/grunt.md"],
+    ["outils/outils.md", "outils/ide.md", "outils/ide-1.md", "outils/ide-2.md", "outils/grunt.md"],
     "second-slide.md"
 ]
