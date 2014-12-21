@@ -1,3 +1,8 @@
-# Tools
+## Outils de la formation
 
-Outils de la présetation
+* Votre IDE préféré (le mien : IntelliJ/WebStorm)
+* nodejs package manager (npm)
+* Git
+* Grunt
+* Yeoman
+* Bower
