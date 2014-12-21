@@ -6,3 +6,4 @@
 * Grunt
 * Yeoman
 * Bower
+* JsLint

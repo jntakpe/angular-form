@@ -1,7 +1,7 @@
-## Votre formateur
+# Formateur
 
 Jocelyn N'TAKPE
 
 Toulousain, 28 ans
 
-Architecte technique autour des technos Java et JS
+Architecte autour des technos Java et JS

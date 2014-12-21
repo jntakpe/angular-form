@@ -1,6 +1,5 @@
 [
-    "index.md",
-    ["presentation/moi.md", "presentation/vous.md"],
-    ["tools/tools.md", "tools/grunt.md"],
+    ["presentation/presentation.md", "presentation/moi.md", "presentation/vous.md"],
+    ["tools/tools.md", "tools/ide.md", "tools/grunt.md"],
     "second-slide.md"
 ]
