@@ -7,5 +7,7 @@
 * la concaténation des ressources statiques
 * l'exécution des tests unitaires
 
-*Grunt* utilise 2 fichiers de configurations. Un fichier **package.json** définissant les différents plugins et metadata
-et un fichier **gruntfile.js** déclarant la configuration des différentes les tâches
+  *Grunt* utilise 2 fichiers de configurations :
+
+* **package.json** : définissant les plugins et metadata
+* **gruntfile.js** : déclarant la configuration des tâches.
