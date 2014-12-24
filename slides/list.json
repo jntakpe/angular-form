@@ -1,6 +1,7 @@
 [
     ["presentation/presentation.md", "presentation/moi.md", "presentation/vous.md"],
-    ["outils/outils.md", "outils/ide.md", "outils/ide-1.md", "outils/ide-2.md", "outils/grunt.md", "outils/grunt-1.md",
-    "outils/grunt-2.md", "outils/grunt-3.md"],
-    "second-slide.md"
+    ["outils/outils.md"],
+    ["outils/ide.md", "outils/ide-1.md", "outils/ide-2.md"],
+    ["outils/grunt.md", "outils/grunt-1.md", "outils/grunt-2.md", "outils/grunt-3.md"],
+    ["outils/bower.md", "outils/bower-1.md", "outils/bower-2.md", "outils/bower-3.md"]
 ]
