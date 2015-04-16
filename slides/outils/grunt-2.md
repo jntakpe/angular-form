@@ -6,6 +6,10 @@
      "name": "Nom_du_project",
      "version": "1.0.0",
      "devDependencies": {
-        "grunt": "~0.4.1"
-     }
+         "grunt": "latest",
+         "grunt-bower-task": "latest",
+         "grunt-contrib-watch": "latest",
+         "grunt-contrib-cssmin": "latest",
+         "grunt-contrib-uglify": "latest"
+        }
     }

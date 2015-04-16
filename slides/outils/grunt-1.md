@@ -9,5 +9,5 @@
 
   *Grunt* utilise 2 fichiers de configurations :
 
-* **package.json** : définissant les plugins et metadata
+* **package.json** : définissant les plugins et metadata (il s'agit bien entendu du fichier de configuration de NPM)
 * **gruntfile.js** : déclarant la configuration des tâches.
