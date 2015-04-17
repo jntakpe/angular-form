@@ -2,7 +2,6 @@
 
 ##### gulpfile.js
 
-
     var gulp = require('gulp'),
         flatten = require('gulp-flatten'),
         dirs = {

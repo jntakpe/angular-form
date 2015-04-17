@@ -2,4 +2,4 @@
 
 > **The streaming build system**
 
-![gulp logo](img/grunt_logo.png)
+![gulp logo](img/gulp_logo.png)
