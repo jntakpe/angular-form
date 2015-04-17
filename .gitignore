@@ -3,7 +3,6 @@
 ######################
 target/
 generated-java/
-build/
 node/
 node_modules/
 **/bower_components/
@@ -11,7 +10,6 @@ node_modules/
 # IntelliJ IDEA and WebStorm
 ######################
 .idea/
-*.iml
 ######################
 # Windows
 ######################
@@ -21,3 +19,5 @@ Desktop.ini
 # OS X
 ######################
 .DS_Store
+######################
+index.html
