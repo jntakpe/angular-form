@@ -1,9 +1,9 @@
 [
-    ["presentation/presentation.md", "presentation/moi.md", "presentation/vous.md"],
-    ["outils/outils.md"],
-    ["outils/ide.md", "outils/ide-1.md", "outils/ide-2.md"],
-    ["outils/grunt.md", "outils/grunt-1.md", "outils/grunt-2.md", "outils/grunt-3.md"],
-    ["outils/gulp.md", "outils/gulp-1.md", "outils/gulp-2.md", "outils/gulp-3.md"],
-    ["outils/bower.md", "outils/bower-1.md", "outils/bower-2.md", "outils/bower-3.md"],
-    ["outils/yeoman.md", "outils/yeoman-1.md", "outils/yeoman-2.md"]
+    ["prez/intro.md", "prez/me.md", "prez/you.md"],
+    ["tools/tools.md"],
+    ["tools/ide.md", "tools/ide-1.md", "tools/ide-2.md"],
+    ["tools/grunt.md", "tools/grunt-1.md", "tools/grunt-2.md", "tools/grunt-3.md"],
+    ["tools/gulp.md", "tools/gulp-1.md", "tools/gulp-2.md", "tools/gulp-3.md"],
+    ["tools/bower.md", "tools/bower-1.md", "tools/bower-2.md", "tools/bower-3.md"],
+    ["tools/yeoman.md", "tools/yeoman-1.md", "tools/yeoman-2.md"]
 ]
