@@ -2,4 +2,4 @@
 
 > **The web's scaffolding tool for modern webapps**
 
-![yeoman logo](img/yeoman_logo.png)
+<img src="img/yeoman_logo.png" height="470"/>

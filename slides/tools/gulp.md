@@ -2,4 +2,4 @@
 
 > **The streaming build system**
 
-![gulp logo](img/gulp_logo.png)
+<img src="img/gulp_logo.png" height="500"/>
