@@ -6,5 +6,6 @@
     ["tools/gulp.md", "tools/gulp-1.md", "tools/gulp-2.md", "tools/gulp-3.md"],
     ["tools/bower.md", "tools/bower-1.md", "tools/bower-2.md", "tools/bower-3.md"],
     ["tools/yeoman.md", "tools/yeoman-1.md", "tools/yeoman-2.md"],
-    ["tools/ui-fmk.html", "tools/css-pp.html", "tools/module-loaders.html"]
+    ["tools/ui-fmk.html", "tools/css-pp.html", "tools/module-loaders.html"],
+    ["intro/intro.md", "intro/syntax.md", "intro/mvc-like.md"]
 ]
