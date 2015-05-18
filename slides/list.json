@@ -8,5 +8,5 @@
     ["tools/yeoman.md", "tools/yeoman-1.md", "tools/yeoman-2.md"],
     ["tools/ui-fmk.html", "tools/css-pp.html", "tools/module-loaders.html", "tools/alternatives.html"],
     ["intro/intro.md", "intro/vision.md", "intro/principes.md", "intro/syntax.md", "intro/mvc-like.md"],
-    ["binding/expression.md"]
+    ["binding/expression.md", "binding/binding.md", "binding/double-data-binding.html", "binding/ex-binding.md"]
 ]
