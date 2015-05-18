@@ -1,3 +1,5 @@
-# Formation AngularJS
+# Formation
 
-Initialisation au framework Javascript AngularJS
+# AngularJS
+
+Initiation au framework Javascript AngularJS

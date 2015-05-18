@@ -1,4 +1,4 @@
-# Generated on 2014-12-20 using generator-reveal 0.4.0
+# Generated on 2015-05-18 using generator-reveal 0.4.0
 module.exports = (grunt) ->
 
     grunt.initConfig
@@ -12,6 +12,7 @@ module.exports = (grunt) ->
                     'index.html'
                     'slides/{,*/}*.{md,html}'
                     'js/*.js'
+                    'css/*.css'
                 ]
 
             index:
@@ -29,6 +30,16 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
+        
+            sass:
+                files: ['css/source/theme.scss']
+                tasks: ['sass']
+
+        sass:
+
+            theme:
+                files:
+                    'css/theme.css': 'css/source/theme.scss'
         
         connect:
 
@@ -68,6 +79,7 @@ module.exports = (grunt) ->
                         'slides/**'
                         'bower_components/**'
                         'js/**'
+                        'css/*.css'
                     ]
                     dest: 'dist/'
                 },{
@@ -77,18 +89,6 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
-        buildcontrol:
-
-            options:
-                dir: 'dist'
-                commit: true
-                push: true
-                message: 'Built from %sourceCommit% on branch %sourceBranch%'
-            pages:
-                options:
-                    remote: 'git@github.com:jntakpe/angular-form.git'
-                    branch: 'gh-pages'
         
 
 
@@ -120,6 +120,7 @@ module.exports = (grunt) ->
     grunt.registerTask 'serve',
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
+            'sass'
             'connect:livereload'
             'watch'
         ]
@@ -127,16 +128,11 @@ module.exports = (grunt) ->
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [
             'test'
+            'sass'
             'buildIndex'
             'copy'
         ]
 
-    
-    grunt.registerTask 'deploy',
-        'Deploy to Github Pages', [
-            'dist'
-            'buildcontrol'
-        ]
     
 
     # Define default task.

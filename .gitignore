@@ -6,6 +6,7 @@ generated-java/
 node/
 node_modules/
 **/bower_components/
+.sass-cache/
 ######################
 # IntelliJ IDEA and WebStorm
 ######################
