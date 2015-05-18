@@ -1,8 +1,9 @@
 {
-  "name": "angularjs",
-  "version": "0.1.0",
-  "dependencies": {
-    "reveal.js": "~2.6.1",
-    "reveal-highlight-themes": "~8.3.0"
-  }
+    "name": "angularjs",
+    "version": "0.1.0",
+    "dependencies": {
+        "reveal.js": "~2.6.1",
+        "reveal-highlight-themes": "~8.3.0",
+        "bootstrap": "~3.3.4"
+    }
 }
