@@ -1,0 +1,23 @@
+######################
+# Directories
+######################
+target/
+generated-java/
+node/
+node_modules/
+**/bower_components/
+######################
+# IntelliJ IDEA and WebStorm
+######################
+.idea/
+######################
+# Windows
+######################
+Thumbs.db
+Desktop.ini
+######################
+# OS X
+######################
+.DS_Store
+######################
+index.html
