@@ -1,4 +1,4 @@
-## [Gulp](http://gulpjs.com/)
+# [Gulp](http://gulpjs.com/)
 
 > **The streaming build system**
 

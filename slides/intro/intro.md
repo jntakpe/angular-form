@@ -1,4 +1,4 @@
-## AngularJS
+# AngularJS
 
 Open source (MIT)
 

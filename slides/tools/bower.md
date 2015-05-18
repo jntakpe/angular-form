@@ -1,4 +1,4 @@
-## [Bower](http://bower.io/)
+# [Bower](http://bower.io/)
 
 > A package manager for the web
 

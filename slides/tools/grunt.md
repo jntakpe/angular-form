@@ -1,4 +1,4 @@
-## [Grunt](http://gruntjs.com/)
+# [Grunt](http://gruntjs.com/)
 
 > **The JavaScript task runner**
 
