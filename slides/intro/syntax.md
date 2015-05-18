@@ -11,9 +11,7 @@ Déclarative (HTML)
 Impérative (JS)
 
     myApp.controller('StatsController', function ($scope, application, StatsService) {
-        StatsService.findAll(application.id).success(function (data){
-            $scope.stats = data;
-        }).error(function(data, status) {
-            //Some error handling code
-        });
+        StatsService.findAll(application.id)
+        .success(function (data) { $scope.stats = data; })
+        .error(function(data, status) { //Some error handling code });
     });
