@@ -1,6 +1,6 @@
 # Outils
 
-* Votre IDE préféré (le mien : IntelliJ/WebStorm)
+* Votre IDE préféré
 * nodejs package manager (npm)
 * Git
 * Grunt

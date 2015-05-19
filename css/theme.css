@@ -27,7 +27,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: rgba(79, 64, 28, 0.99);
+  background: rgba(236, 124, 0, 0.99);
   text-shadow: none; }
 
 /*********************************************
@@ -143,13 +143,20 @@ body {
 
 nav.navbar {
   background-color: #c61e1f; }
+  nav.navbar .navbar-header h4 {
+    margin: 10px;
+    color: #f7f3de; }
+    nav.navbar .navbar-header h4 small {
+      color: #f7f3de;
+      vertical-align: middle;
+      margin-right: 20px; }
 
-nav.navbar .navbar-header h4 {
-  margin: 10px;
-  color: white; }
-  nav.navbar .navbar-header h4 small {
-    color: white;
-    vertical-align: middle;
-    margin-right: 20px; }
+p code {
+  color: #c61e1f; }
+
+.git-link {
+  position: fixed;
+  bottom: 10px;
+  left: 10px; }
 
 /*# sourceMappingURL=theme.css.map */

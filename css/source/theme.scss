@@ -1,9 +1,8 @@
 // Default mixins and settings -----------------
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
 @import "../../bower_components/reveal.js/css/theme/template/settings";
+
 // ---------------------------------------------
-
-
 
 // Include theme-specific fonts
 @font-face {
@@ -20,20 +19,19 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
-
 // Override theme settings (see ../template/settings.scss)
 $mainColor: #333;
 $headingColor: #c61e1f;
 $headingTextShadow: none;
 $backgroundColor: #f7f3de;
 $linkColor: #ec7c00;
-$linkColorHover: lighten( $linkColor, 20% );
-$selectionBackgroundColor: rgba(79, 64, 28, 0.99);
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$linkColorHover: lighten($linkColor, 20%);
+$selectionBackgroundColor: rgba(236, 124, 0, 0.99);
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 20px 20px rgba(0, 0, 0, .15);
 
 // Background generator
 @mixin bodyBackground() {
-    @include radial-gradient( rgba(247,242,211,1), rgba(255,255,255,1) );
+    @include radial-gradient(rgba(247, 242, 211, 1), rgba(255, 255, 255, 1));
 }
 
 // Theme template ------------------------------
@@ -41,16 +39,26 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 // ---------------------------------------------
 
 nav.navbar {
-    background-color: #c61e1f;
+    background-color: $headingColor;
+
+    .navbar-header h4 {
+        margin: 10px;
+        color: $backgroundColor;
+
+        small {
+            color: $backgroundColor;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+    }
 }
 
-nav.navbar .navbar-header h4 {
-    margin: 10px;
-    color: white;
+p code {
+    color: $headingColor;
+}
 
-    small {
-        color: white;
-        vertical-align: middle;
-        margin-right: 20px;
-    }
+.git-link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
 }

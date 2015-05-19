@@ -1,4 +1,4 @@
-## Vision AngularJS pour le web
+## Vision AngularJS du web
 
 * Peu de 'boilerplate'
 * Découplage entre le DOM et la logique

@@ -36,7 +36,10 @@
     ["tools/ui-fmk.html"],
     ["tools/css-pp.html"],
     ["tools/module-loaders.html"],
-    ["tools/alternatives.html"],
+    [
+        "tools/alternatives.html",
+        "tools/popularite.md"
+    ],
     [
         "intro/intro.md",
         "intro/vision.md",
@@ -44,7 +47,15 @@
         "intro/syntax.md",
         "intro/mvc-like.md"
     ],
-    ["binding/expression.md"],
+    [
+        {
+            "filename": "expression/expression.md",
+            "attr": {
+                "data-git": "binding-start"
+            }
+        },
+        "expression/gotchas.md"
+    ],
     [
         "binding/binding.md",
         "binding/double-data-binding.html",
