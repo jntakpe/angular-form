@@ -48,7 +48,10 @@
                     <h4>FORMATION AngularJS</h4>
                 </div>
                 <div class="navbar-header pull-right">
-                    <h4><small>Jocelyn NTAKPE</small>Sopra Academy</h4>
+                    <h4>
+                        <small>Jocelyn NTAKPE</small>
+                        Sopra Academy
+                    </h4>
                 </div>
             </div>
         </nav>
@@ -68,9 +71,12 @@
         <% } %>
         <% }); %>
     </div>
-
+    <div class="col-md-3 git-link fade">
+        <pre><code id="checkout"></code></pre>
+    </div>
 </div>
 
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
 <script src="bower_components/reveal.js/js/reveal.min.js"></script>
 <script>
@@ -82,6 +88,7 @@
         progress: true,
         history: true,
         center: true,
+        slideNumber: true,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
@@ -128,8 +135,19 @@
             }
         ]
     });
-</script>
 
+    Reveal.addEventListener( 'slidechanged', function() {
+        var $slide = $('section.stack.present'), $gitLink = $('.git-link'),
+            checkoutVal = $slide.children('section.present').data('git'), $content = $('#checkout');
+        if (checkoutVal) {
+            $gitLink.addClass('in');
+            $content.text('git checkout ' + checkoutVal);
+        } else {
+            $gitLink.removeClass('in');
+            $content.text('');
+        }
+    } );
+</script>
 </body>
 
 </html>
