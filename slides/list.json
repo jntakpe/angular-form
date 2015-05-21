@@ -67,6 +67,8 @@
     ],
     [
         "controller/controller.md",
-        "controller/scope.md"
+        "controller/scope.md",
+        "controller/scope-2.md",
+        "controller/tp-todo.md"
     ]
 ]
