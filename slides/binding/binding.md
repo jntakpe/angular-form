@@ -1,4 +1,4 @@
-## Binding
+# Binding
 
 Le double data-binding d'Angular permet de maintenir le modèle en accord avec la vue et vice-versa.
 
