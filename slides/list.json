@@ -75,6 +75,13 @@
     [
         "filter/filter.html",
         "filter/natif.md",
-        "filter/array-filtering.md"
+        "filter/array-filtering.md",
+        {
+            "filename": "filter/dynamic.md",
+            "attr": {
+                "data-git": "dynamic-filter"
+            }
+        },
+        "filter/custom.md"
     ]
 ]

@@ -19,4 +19,4 @@ Par exemple :
 Donne :
 
         {{ persons | orderBy: 'name'}} // Julie, Marie, Paul, Pierre
-        {{ persons | orderBy: ['gender', '-name']}} // Marie, Julie, Pierre, Paul
+        {{ persons | orderBy: ['gender', '-name']}}// Marie, Julie, Pierre, Paul
