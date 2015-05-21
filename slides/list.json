@@ -74,6 +74,7 @@
     ],
     [
         "filter/filter.html",
-        "filter/natif.md"
+        "filter/natif.md",
+        "filter/array-filtering.md"
     ]
 ]
