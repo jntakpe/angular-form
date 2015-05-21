@@ -1,0 +1,25 @@
+<h1>Filtres</h1>
+
+<p>Les filtres permettent de transformer les valeurs d'affichage, de filtrer ou réordonner les éléments d'une
+    collection.</p>
+
+<div class="fragment">
+    <p>La syntaxe UNIX est utilisée :</p>
+    <pre><code>{{ expression | uppercase }}</code></pre>
+
+</div>
+<div class="fragment">
+    <p>On peut chaîner les filtres :</p>
+    <pre><code>{{ expression | uppercase | trim }}</code></pre>
+</div>
+<div class="fragment">
+    <p>Passer des paramètres :</p>
+
+    <pre><code>{{ array | orderBy:'name':true }}</code></pre>
+</div>
+<div class="fragment">
+    <p>Ou encore accéder au filtre en JS :</p>
+
+<pre><code>var toUpper = $filter('uppercase');
+    toUpper('hello'); // HELLO</code></pre>
+</div>

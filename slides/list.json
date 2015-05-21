@@ -71,5 +71,9 @@
         "controller/scope-2.md",
         "controller/tp-todo.md",
         "controller/inherit.md"
+    ],
+    [
+        "filter/filter.html",
+        "filter/natif.md"
     ]
 ]
