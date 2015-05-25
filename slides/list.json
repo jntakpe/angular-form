@@ -87,6 +87,14 @@
     ],
     [
         "module/module.md",
-        "module/declaration.md"
+        "module/declaration.md",
+        "module/optional.md",
+        "module/others.md",
+        "module/keywords.md"
+    ],
+    [
+        "services/service.md",
+        "services/type.md",
+        "services/injection.md"
     ]
 ]
