@@ -70,7 +70,8 @@
         "controller/scope.md",
         "controller/scope-2.md",
         "controller/tp-todo.md",
-        "controller/inherit.md"
+        "controller/inherit.md",
+        "controller/as-syntax.md"
     ],
     [
         "filter/filter.html",
@@ -83,5 +84,9 @@
             }
         },
         "filter/custom.md"
+    ],
+    [
+        "module/module.md",
+        "module/declaration.md"
     ]
 ]
