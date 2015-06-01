@@ -70,7 +70,12 @@
         "controller/scope.md",
         "controller/scope-2.md",
         "controller/tp-todo.md",
-        "controller/inherit.md",
+        {
+            "filename": "controller/inherit.md",
+            "attr": {
+                "data-git": "scope-inherit && scope-inherit-weird"
+            }
+        },
         "controller/as-syntax.md"
     ],
     [
@@ -90,11 +95,13 @@
         "module/declaration.md",
         "module/optional.md",
         "module/others.md",
-        "module/keywords.md"
+        "module/keywords.md",
+        "module/organization.html"
     ],
     [
         "services/service.md",
         "services/type.md",
-        "services/injection.md"
+        "services/injection.md",
+        "services/minify.html"
     ]
 ]

@@ -1,0 +1,14 @@
+<h2>Injection de dépendances - Minification</h2>
+
+<p>Après minification ce code :</p>
+<pre><code>angular.module('myModule').controller('MyCtrl', function ($scope, $http) {});</code></pre>
+<p>deviendra :</p>
+<pre><code>angular.module('myModule').controller('MyCtrl', function (a, b) {});</code></pre>
+<div class="fragment">
+    <p>AngularJS recherchera des providers aProvider et bProvider qui n'existeront certainnement pas.</p>
+</div>
+<div class="fragment">
+    <p>Pour palier à ce problème, on peut utiliser la forme :</p>
+<pre><code> angular.module('myModule')
+    .controller('MyCtrl', ['$scope', '$http', function ($scope, $http) {}]);</code></pre>
+</div>
