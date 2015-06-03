@@ -9,7 +9,7 @@
 
         {{ 31.26 | currency:'$' }} // $31.26
 
-* date : permet de formatter la date en passant le pattern en paramètre
+* date : permet de formatter la date en passant le pattern
 
         {{ today | date:'dd/MM/yyyy' }} // 21/05/2015
 

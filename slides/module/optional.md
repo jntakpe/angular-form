@@ -6,7 +6,7 @@
 
 * *ngRoute*, pour le routage
 
-* *ngResouce*, pour intéragir avec des ressources REST
+* *ngResource*, pour intéragir avec des ressources REST
 
 * *ngMessages*, pour l'affichage de messages notamment pour les champs de formulaires
 

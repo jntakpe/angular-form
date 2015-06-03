@@ -88,7 +88,8 @@
                 "data-git": "dynamic-filter"
             }
         },
-        "filter/custom.md"
+        "filter/custom.md",
+        "filter/tp-filter.md"
     ],
     [
         "module/module.md",
