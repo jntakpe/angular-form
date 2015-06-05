@@ -2,13 +2,13 @@
 
 Par exemple pour utiliser le service $http, on peut écrire :
 
-    angular.module('myModule').controller('MyCtrl', function ($scope, $http) {});
+    myModule.controller('MyCtrl', function ($scope, $http) {});
 
 Ca marche aussi en inversant l'ordre des paramètres.
 
-Si on change le nom des paramètres, Angular lance une erreur :
+Ne fonctionne pas en changeant l'ordre des paramètres
 
-    angular.module('myModule').controller('MyCtrl', function ($scope, httpService) {});
+    myModule.controller('MyCtrl', function ($scope, httpService) {});
 
 Pour créer un contrôleur Angular :
 

@@ -9,3 +9,5 @@
 * *constant*, pour enregistrer une constante
 
 * *value*, objet accessible par les services mais pas par les providers
+
+``` Généralement seuls factory et service sont utilisés ```
