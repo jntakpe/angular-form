@@ -11,4 +11,6 @@ Le bloc config est exécuter pendant la phase d'enregistrement du service et peu
 
 Le bloc run permet d'agir sur le service une fois le provider enregistré et configuré.
 
-
+    angular.module('mod').run(function($http) {
+        $http.defaults.headers.common.Authorization = 'Basic YmVlcDpib29w'
+    });

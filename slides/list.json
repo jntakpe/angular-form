@@ -111,6 +111,7 @@
         "services/existing-other.md",
         "services/type.md",
         "services/factory.md",
-        "services/service-create.md"
+        "services/service-create.md",
+        "services/config.md"
     ]
 ]
