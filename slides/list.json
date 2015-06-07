@@ -112,6 +112,9 @@
         "services/type.md",
         "services/factory.md",
         "services/service-create.md",
-        "services/config.md"
+        "services/config.md",
+        "services/promise.md",
+        "services/promise-ex.md",
+        "services/create-promise.md"
     ]
 ]
