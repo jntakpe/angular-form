@@ -4,7 +4,29 @@
         "prez/me.md",
         "prez/you.md"
     ],
-    ["tools/tools.md"],
+    [
+        "js/js.md",
+        "js/es.md",
+        "js/us.md",
+        "js/semicolon.md",
+        "js/scope.md",
+        "js/type.md",
+        "js/autoboxing.md"
+    ],
+    [
+        "js/object.md",
+        "js/literal.md",
+        "js/prototype.md",
+        "js/array.md",
+        "js/array-methods.md",
+        "js/array-methods-next.md"
+    ],
+    [
+        "js/function.md"
+    ],
+    [
+        "tools/tools.md"
+    ],
     [
         "tools/ide.md",
         "tools/ide-1.md",
@@ -33,9 +55,15 @@
         "tools/yeoman-1.md",
         "tools/yeoman-2.md"
     ],
-    ["tools/ui-fmk.html"],
-    ["tools/css-pp.html"],
-    ["tools/module-loaders.html"],
+    [
+        "tools/ui-fmk.html"
+    ],
+    [
+        "tools/css-pp.html"
+    ],
+    [
+        "tools/module-loaders.html"
+    ],
     [
         "tools/alternatives.html",
         "tools/popularite.md"
@@ -144,7 +172,9 @@
         "directives/switch.md",
         "directives/include.md"
     ],
-    ["directives/binding.md"],
+    [
+        "directives/binding.md"
+    ],
     [
         "directives/cloak.md",
         "directives/hideshow.md",
