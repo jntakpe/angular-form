@@ -13,6 +13,5 @@
                         }
                     }, 2000);
                     return deferred.promise;
-
                 }
             }});

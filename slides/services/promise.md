@@ -13,4 +13,4 @@ avec deux états :
 * pending en attente de résultat
 * settled lorsque le résultat a été renvoyé
 
-On dit que les promesses sont des objets 'thenable'.
+On dit que les promesses sont des objets 'thenable'

@@ -116,5 +116,38 @@
         "services/promise.md",
         "services/promise-ex.md",
         "services/create-promise.md"
+    ],
+    [
+        "routes/ui-router.md"
+    ],
+    [
+        "directives/intro.md"
+    ],
+    [
+        "directives/framework.md",
+        "directives/ngapp.md",
+        "directives/ngstrictdi.md",
+        "directives/nginit.md",
+        "directives/ngcontroller.md"
+    ],
+    [
+        "directives/template.md",
+        "directives/model.md",
+        "directives/form.md",
+        "directives/ex-form.md",
+        "directives/input.md",
+        "directives/css.md",
+        "directives/message.md",
+        "directives/if.md",
+        "directives/repeat.md",
+        "directives/trackby.md",
+        "directives/switch.md",
+        "directives/include.md"
+    ],
+    ["directives/binding.md"],
+    [
+        "directives/cloak.md",
+        "directives/hideshow.md",
+        "directives/class.md"
     ]
 ]
