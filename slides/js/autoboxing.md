@@ -8,10 +8,10 @@
     var s='hello';
     s.length;
 
-``` Evitez de créer (comme en Java) des objets Boolean, Number et String ``
+``` Evitez de créer (comme en Java) des objets Boolean, Number et String ```
 
     var a = new String('a');
     a == 'a'; //true
     a === 'a'; //false
 
-```Préferez la comparaison stricte (===) ```
+```Préférez la comparaison stricte (===) ```

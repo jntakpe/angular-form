@@ -9,3 +9,5 @@ Permet de modifier dynamiquement les classes CSS.
          <input type="checkbox" ng-model="boldChecked"/>
          <div ng-class="{green: greenChecked, bold: boldChecked }">I'm classy
          </div>
+
+Il est existe également deux directives ngClassEven et ngClassOdd pour changer de classe dans un repeat.

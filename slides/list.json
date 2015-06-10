@@ -79,7 +79,7 @@
         {
             "filename": "expression/expression.md",
             "attr": {
-                "data-git": "binding-start"
+                "data-git": "start-binding"
             }
         },
         "expression/gotchas.md"
@@ -88,7 +88,7 @@
         {
             "filename": "binding/binding.md",
             "attr": {
-                "data-git": "binding-start"
+                "data-git": "start-binding"
             }
         },
         "binding/double-data-binding.html"
@@ -178,6 +178,12 @@
     [
         "directives/cloak.md",
         "directives/hideshow.md",
-        "directives/class.md"
+        "directives/class.md",
+        "directives/disabled.md",
+        "directives/readonly.md",
+        "directives/style.md"
+    ],
+    [
+        "directives/create.md"
     ]
 ]
