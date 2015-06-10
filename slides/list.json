@@ -120,6 +120,16 @@
         "filter/tp-filter.md"
     ],
     [
+        "routes/routes.md",
+        "routes/comparaison.html",
+        "routes/simili.md",
+        "routes/ui-router.md",
+        "routes/activate.md",
+        "routes/resolve.md",
+        "routes/hierarchy.md",
+        "routes/multiple.md"
+    ],
+    [
         "module/module.md",
         "module/declaration.md",
         "module/optional.md",
@@ -144,9 +154,6 @@
         "services/promise.md",
         "services/promise-ex.md",
         "services/create-promise.md"
-    ],
-    [
-        "routes/ui-router.md"
     ],
     [
         "directives/intro.md"
