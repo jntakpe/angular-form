@@ -127,7 +127,8 @@
         "routes/activate.md",
         "routes/resolve.md",
         "routes/hierarchy.md",
-        "routes/multiple.md"
+        "routes/multiple.md",
+        "routes/tp.md"
     ],
     [
         "module/module.md",
