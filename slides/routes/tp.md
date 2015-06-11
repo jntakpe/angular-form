@@ -8,8 +8,8 @@ Récupérer l'application fra :
     npm install
     bower install
     gulp serve
-* Faire le lien pour activer l'état
-* Sur la page d'accueil mettre à jour les liens vers l'états respectifs
-* Afficher l'état 'main.apidocs'
-* Créer un état 'error' pour afficher la page 404.html
-* Créer un état 'endpoints' pour afficher la liste des URLs
+
+* Depuis la page d'erreur 404, créer le lien vers la page d'accueil (home = '/')
+* Créer un état pour afficher la liste des endpoints (endpoints = '/endpoints')
+* Mettre à jour les liens pour naviguer entre l'état home et endpoints (ne pas oublier le header)
+
