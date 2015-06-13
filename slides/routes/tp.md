@@ -1,15 +1,11 @@
-## TP
+## TP Modules et routes
 
-Récupérer l'application fra :
+* Créer un état pour afficher l'écran 'liste des requests' (requests = '/requests')
+* Créer un état pour afficher l'écran 'liste des endpoints' (endpoints = '/endpoints')
+* Sur la page d'accueil 'home' mettre à jour les liens
+* Appliquer la classe 'active' sur le lien du header à la page courante
 
-    git clone https://www.github.com/jntakpe/fra
-    cd fra
-    git checkout formation
-    npm install
-    bower install
-    gulp serve
+Facultatif
 
-* Depuis la page d'erreur 404, créer le lien vers la page d'accueil (home = '/')
-* Créer un état pour afficher la liste des endpoints (endpoints = '/endpoints')
-* Mettre à jour les liens pour naviguer entre l'état home et endpoints (ne pas oublier le header)
-
+* Créer un état pour afficher l'écran d'édition des endpoints (endpoint = '/endpoints/:id')
+* Mettre à jour les liens vers la page 'édition de endpoints' sur la page home et sur le header

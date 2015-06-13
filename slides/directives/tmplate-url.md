@@ -1,12 +1,12 @@
 ## Créer ses directives -
-## template
+## templateUrl
 
-Template permet de remplacer la directive par le contenu de la propriété template :
+Il est également possible de passer :
 
     <myDir>This text will be removed</myDir>
 
     app.directive('myDir', function() {
            return {
-             template: '<h1>Some title</h1>'
+             templateUrl: 'directives/mydir.html'
            };
     });

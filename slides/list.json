@@ -120,6 +120,14 @@
         "filter/tp-filter.md"
     ],
     [
+        "module/module.md",
+        "module/declaration.md",
+        "module/optional.md",
+        "module/others.md",
+        "module/keywords.md",
+        "module/organization.html"
+    ],
+    [
         "routes/routes.md",
         "routes/comparaison.html",
         "routes/simili.md",
@@ -128,15 +136,8 @@
         "routes/resolve.md",
         "routes/hierarchy.md",
         "routes/multiple.md",
+        "routes/prepa-tp.md",
         "routes/tp.md"
-    ],
-    [
-        "module/module.md",
-        "module/declaration.md",
-        "module/optional.md",
-        "module/others.md",
-        "module/keywords.md",
-        "module/organization.html"
     ],
     [
         "services/service.md",
@@ -154,7 +155,8 @@
         "services/config.md",
         "services/promise.md",
         "services/promise-ex.md",
-        "services/create-promise.md"
+        "services/create-promise.md",
+        "services/tp.md"
     ],
     [
         "directives/intro.md"
@@ -192,6 +194,10 @@
         "directives/style.md"
     ],
     [
-        "directives/create.md"
+        "directives/create.md",
+        "directives/tmplate.md",
+        "directives/tmplate-url.md",
+        "directives/restrict.md",
+        "directives/transclude.md"
     ]
 ]
