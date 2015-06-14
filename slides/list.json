@@ -137,7 +137,12 @@
         "routes/hierarchy.md",
         "routes/multiple.md",
         "routes/prepa-tp.md",
-        "routes/tp.md"
+        {
+            "filename": "routes/tp.md",
+            "attr": {
+                "data-git": "start-routes"
+            }
+        }
     ],
     [
         "services/service.md",
@@ -156,7 +161,13 @@
         "services/promise.md",
         "services/promise-ex.md",
         "services/create-promise.md",
-        "services/tp.md"
+        "services/prepa-tp.md",
+        {
+            "filename": "services/tp.md",
+            "attr": {
+                "data-git": "tp-start-service"
+            }
+        }
     ],
     [
         "directives/intro.md"
@@ -180,7 +191,8 @@
         "directives/repeat.md",
         "directives/trackby.md",
         "directives/switch.md",
-        "directives/include.md"
+        "directives/include.md",
+        "directives/tp.md"
     ],
     [
         "directives/binding.md"
@@ -198,6 +210,12 @@
         "directives/tmplate.md",
         "directives/tmplate-url.md",
         "directives/restrict.md",
-        "directives/transclude.md"
+        "directives/transclude.md",
+        "directives/link.md",
+        "directives/scope.md",
+        "directives/scope-@.md",
+        "directives/scope-=.md",
+        "directives/scope-&.md",
+        "directives/controller.md"
     ]
 ]

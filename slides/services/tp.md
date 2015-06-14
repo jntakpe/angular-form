@@ -1,14 +1,4 @@
-## TP services
-
-    git reset --hard HEAD
-    git pull
-    git checkout start-tp-service
-    java -jar target/fra.jar --spring.profiles.active=dev
-
-Sur la vue request :
-
-* Récupérer les données depuis le backend en utilisant un service
-* Afficher les données dans la table HTML
+## TP Services
 
 Sur la vue endpoints :
 
