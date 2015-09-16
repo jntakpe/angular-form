@@ -5,10 +5,10 @@
 <p>deviendra :</p>
 <pre><code>angular.module('mod').controller('MyCtrl', function (a, b) {});</code></pre>
 <div class="fragment">
-    <p>AngularJS recherchera des providers aProvider et bProvider qui n'existeront certainnement pas.</p>
+    <p>AngularJS recherchera des providers aProvider et bProvider qui n'existeront certainement pas.</p>
 </div>
 <div class="fragment">
-    <p>Pour palier à ce problème, on peut utiliser la forme :</p>
+    <p>Pour palier ce problème, on peut utiliser la forme :</p>
 <pre><code> angular.module('mod')
     .controller('MyCtrl', ['$scope', '$http', function ($scope, $http) {}]);</code></pre>
 </div>
