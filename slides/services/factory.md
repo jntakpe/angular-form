@@ -13,8 +13,8 @@ Une factory doit renvoyer le service à enregistrer, on utilise en général le 
                 //Some code
             }
             return {
-                read: readUsers(),
-                write: writeUsers()
+                read: readUsers,
+                write: writeUsers
             }
         });
 
