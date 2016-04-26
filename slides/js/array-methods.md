@@ -1,6 +1,6 @@
 ## Méthodes des tableaux
 
-* mytab.mytab.push(elem1, elem2, ...) : ajoute des éléments à la fin du tableau
+* mytab.push(elem1, elem2, ...) : ajoute des éléments à la fin du tableau
 * mytab.pop() : enlève et renvoie le dernier élément du tableau
 * mytab.shift() : enlève et renvoie le premier élément du tableau
 * mytab.unshift(elem1, elem2, ...) : ajoute des éléments au début du tableau
