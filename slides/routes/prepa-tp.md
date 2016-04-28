@@ -4,9 +4,9 @@ Récupérer l'application fra :
 
     git clone https://www.github.com/jntakpe/fra
     cd fra
-    git checkout form-tlse
     git checkout ex-routes
     npm install
+    npm install -g gulp
     bower install
     gulp serve
 
